@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HangMan - DS2017</title>
+        <link rel="stylesheet" href="styles.css" async defer>
+        <script src="client.js" async defer></script>
+    </head>
+    <body>
+		<div class="main">
+			<div class="heading"><h1>Hang<span>Man<span></h1></div>
+
+			<div class="menu" id="menu">
+				<h3>Rules:</h3>
+				<ul>
+					<li>There will be 3 players, one after one will take turns</li>
+					<li>When its you turn, you have to guess the name of the city</li>
+				</ul>
+				<h3>Wanna play game?</h3>
+				<button id="ready">Yeah!</button>
+			</div>
+
+			<div class="waiting" id="waiting">
+				<h3>Waiting for other players...</h3>
+			</div>
+
+			<ul class="players" id="players">
+
+			</ul>
+
+			<div class="game" id="game">
+				<div class="info" id="info"></div>
+				<input class="ncontrol" data-msg="word" id="word" />
+				<button class="control" data-msg="button" id="sbutton">Submit</button>
+			</div>
+		</div>
+    </body>
+</html>
