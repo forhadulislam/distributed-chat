@@ -1,16 +1,9 @@
-# Distributed Systems Chatting APP
+# Distributed Chatting APP
 
 ## Description
 
-Our project is implements a simple distributed system for the course "Distributed System" in the University of Oulu. The system implements a simplified version of Hangman game where the players try to guess city names which is defined by the system and the users get 1 point for each successful prediction. 1 point is deducted if the prediction is wrong. 
+This project implements a simple distributed chatting to demonstrate a "Distributed System".
 
-## Extra features
-	* Fault tolerance and recovery
-	* Consistency and Replication:
-	* Naming
-	* Security​
-	* Synchronization
-	* Communication
 
 ## Server setup
 ### 1) Node.js
